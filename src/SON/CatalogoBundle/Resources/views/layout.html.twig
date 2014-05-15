@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block title 'Catálogo' %}
+
+{% block stylesheets %}
+
+    {% stylesheets filter='cssrewrite' 'bundles/catalogo/css/*' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+
+{% endblock %}

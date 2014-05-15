@@ -1,0 +1,9 @@
+catalogo:
+    resource: "@CatalogoBundle/Controller"
+    prefix:   /
+    type: annotation
+
+user:
+    resource: "@UserBundle/Controller"
+    prefix:   /
+    type: annotation
